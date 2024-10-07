@@ -1,0 +1,204 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: lightpink;
+}
+
+header{
+    background-color: black;
+}
+
+
+h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button5{
+    background-color: white;
+    color: black;
+
+
+}
+
+.button5:hover{
+    background-color:#ddc4c4;
+    color:black;
+    
+}
+.button{
+    background-color: cornsilk;
+    border: none;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    font-size: 22px;
+}
+
+.principal{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    height: 290px;
+    justify-content: center;
+
+}
+h1{
+    padding-left: 50px;
+    background-color: white;
+}
+.ckk{
+    margin-left: 60%;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: black;
+  }
+
+ .img{
+    background-color:#f7e1d7; 
+    
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    height: 290px;
+    justify-content: center;
+   
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: lightpink;
+}
+
+
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+
+ 
+}
+
+.btn {
+  color: rgb(12, 11, 11);
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(156, 7, 7, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: pink;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  }
+  
+
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: rgb(226, 215, 215);
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(161, 46, 46, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, rgb(255, 226, 226) 40%, #eec3d1 100%);
+}
+
+.card_title { 
+  color: #181212;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  font-family: arial black;
+}
+
+.card_text {
+  color: rgb(24, 18, 18);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+h3 {
+    font-family: arial rgb(20, 14, 14);
+}
+    .imgp{
+width: 300px;
+
+    }
+    
+    
